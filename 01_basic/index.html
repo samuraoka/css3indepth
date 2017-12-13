@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>CSS3 In-Depth</title>
+        <style type="text/css">
+            body {
+                background-color: lightgray;
+            }
+            
+            main {
+                font-size: 1.5em;
+            }
+            
+            /*
+                CSS Selectors
+                https://www.w3schools.com/cssref/css_selectors.asp
+            */
+            ol > li     {color: purple;}
+            ol li       {color: green;}
+            li          {color: yellow;}
+            li.myclass  {color: red;}
+            li.myclass ~ li {color: blue; font-weight: bold;}
+            li.myclass + li {color: orange;}
+            
+        </style>
+    </head>
+    <body>
+        <h1>CSS3 In-Depth</h1>
+        <h2>2. Selectors</h2>
+        <h3>Basic Selectors, Relational Selectors</h3>
+        <main>
+            <ol>
+                <li>item 1</li>
+     	          <li>item 2</li>
+                <li>item 3
+                    <ul>
+                        <li>item a</li>
+                        <li>item b</li>
+                        <li>item c</li>
+                    </ul>
+                </li>
+                <li class="myclass">item 4 (myclass)</li>
+                <li>item 5</li>
+                <li>item 6</li>
+                <li>item 7</li>
+            </ol>
+        </main>
+    </body>
+</html>
