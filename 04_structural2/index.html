@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>CSS3 In-Depth</title>
+        <style type="text/css">            
+            div {
+                background-color: lightgray;
+                font-size: 1.5em;
+            }
+            
+            /*
+                CSS Tables
+                https://www.w3schools.com/Css/css_table.asp
+            */
+            
+            table {
+                border-collapse: collapse;
+            }
+            table, tr, td {
+                border: 0.08em solid black;
+            }
+            
+            tr:first-child, tr:last-child {
+                font-weight: bold;
+            }
+            
+            tr:first-of-type, tr:last-of-type {
+                text-decoration: line-through;
+            }
+            
+            tr:nth-child(even) {
+                background-color: lightgray;
+            }
+            
+            tr:nth-child(3) {
+                color: lightgray;
+            }
+            
+            tr:nth-of-type(odd) {
+                background-color: #FFF;
+            }
+            
+            tr:nth-of-type(4n) {
+                color: crimson;
+            }
+            
+            tr:nth-of-type(3n-1) {
+                font-style: italic;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>CSS3 In-Depth</h1>
+        <h2>2. Selectors</h2>
+        <h3>Structural UI Pseudo-Classes 2</h3>
+        <main>
+            <table>
+                <tr>
+                    <td>Row 1</td>
+                </tr>
+                <tr>
+                    <td>Row 2</td>
+                </tr>
+                <tr>
+                    <td>Row 3</td>
+                </tr>
+                <tr>
+                    <td>Row 4</td>
+                </tr>
+                <tr>
+                    <td>Row 5</td>
+                </tr>
+                <tr>
+                    <td>Row 6</td>
+                </tr>
+                <tr>
+                    <td>Row 7</td>
+                </tr>
+                <tr>
+                    <td>Row 8</td>
+                </tr>
+                <tr>
+                    <td>Row 9</td>
+                </tr>
+                <tr>
+                    <td>Row 10</td>
+                </tr>
+            </table>
+        </main>
+    </body>
+</html>
